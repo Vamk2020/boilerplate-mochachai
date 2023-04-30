@@ -5,7 +5,7 @@ suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
     // #1
     test('#isNull, #isNotNull', function () {
-      assert.fail(isNull, 'This is an optional error description - e.g. null is null');
+      assert.fail(isNotNull, 'This is an optional error description - e.g. null is null');
       assert.fail(isNotNull, '1 is not null');
     });
     // #2
